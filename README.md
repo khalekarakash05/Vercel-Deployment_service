@@ -149,20 +149,28 @@ A custom deployment service inspired by Vercel, designed to handle file uploads,
 
 # Run the services:
    # Main Service
-cd vercel-Main
-npm start
+    ```bash
+      cd vercel-Main
+      npm run build
+      npm run start
 
 # Deployment Service
-cd ../vercel-deploy-service
-npm start
+    ```bash
+      cd ../vercel-deploy-service
+      npm run build
+      npm run start
 
 # Request Handler Service
-cd ../vercel-main-request-handler
-npm start
+     ```bash
+      cd ../vercel-main-request-handler
+      npm run build
+      npm run start
 
 # Frontend
-cd ../frontend
-npm start
+     ```bash
+      cd ../frontend
+      npm install
+      npm start
 
 
 # Future Improvements
